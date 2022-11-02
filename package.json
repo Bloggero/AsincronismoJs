@@ -1,0 +1,21 @@
+{
+  "name": "asincronismojs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "callback": "node src/callback/challenge.js",
+    "callback1": "node src/promise/challenge.js",
+    "callback2": "node src/promise/challenge-post.js"
+  },
+  "keywords": [
+    "javascript"
+  ],
+  "author": "Kevin Cano kevin.cano.pc@gmail.com",
+  "license": "MIT",
+  "dependencies": {
+    "node-fetch": "^3.2.10",
+    "xmlhttprequest": "^1.8.0"
+  },
+  "type": "module"
+}
